@@ -1,0 +1,11 @@
+transformers[serve]
+accelerate
+kernels
+weaviate-client
+dotenv
+markitdown[all]
+triton==3.4.0
+git+https://github.com/triton-lang/triton.git@v3.4.0#subdirectory=python/triton_kernels
+langgraph
+langchain_huggingface
+aiohttp
